@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+int money,totalicecreamprice;
+    scanf("%d",&money);
+    totalicecreamprice=320+120+250;
+    if(totalicecreamprice<=money){
+        money=money-totalicecreamprice;
+        printf("1 %d",money);
+    }
+    else
+        printf("0");
+    return 0;
+}
+
